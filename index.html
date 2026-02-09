@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín? 🎮</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+    <div class="flowers"></div>
+    <div class="hearts"></div>
+    <div class="sparkles"></div>
+        
+        <div class="main-content">
+            <div class="pixel-border">
+                <div class="game-title">
+                    <h1 class="valentine-title">💝 ¿Quieres ser mi San Valentín? 💝</h1>
+                </div>
+                
+                <div class="button-container">
+                    <button id="yesBtn" class="valentine-btn yes-btn">
+                        <span class="btn-text">SÍ 💕</span>
+                    </button>
+                    <button id="noBtn" class="valentine-btn no-btn">
+                        <span class="btn-text">NO</span>
+                    </button>
+                </div>
+                
+                <div id="heartAnimation" class="heart-animation hidden">
+                    <div class="floating-hearts">
+                        <div class="heart-message">
+                            <div class="heart-rain"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts organizados por módulos -->
+    <script src="js/config.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
