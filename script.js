@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
 
-    // Función para mostrar la carta de amor con flores
+    // Función para mostrar la carta de amistad con flores
     function showLoveLetter() {
         // Prevent duplicate letters
         if (document.querySelector('.love-letter')) {

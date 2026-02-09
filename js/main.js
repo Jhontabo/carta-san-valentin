@@ -78,9 +78,24 @@ class ValentineGame {
     }
 
     // Validar animaciones
-    validateAnimations() {
+    async validateAnimations() {
+        // Esperar a que el módulo de animaciones esté disponible
+        let attempts = 0;
+        const maxAttempts = 10;
+        
+        while (!window.ValentineAnimations && attempts < maxAttempts) {
+            console.log(`⏳ Esperando módulo de animaciones... (${attempts + 1}/${maxAttempts})`);
+            await new Promise(resolve => setTimeout(resolve, 100));
+            attempts++;
+        }
+        
         if (!window.ValentineAnimations) {
-            console.error('❌ Módulo de animaciones no encontrado');
+            console.error('❌ Módulo de animaciones no encontrado después de esperar');
+            console.log('Estado actual:', {
+                ValentineConfig: !!window.ValentineConfig,
+                ValentineAnimations: !!window.ValentineAnimations,
+                ButtonManager: !!window.ButtonManager
+            });
             throw new Error('Módulo de animaciones no encontrado');
         }
         
@@ -89,9 +104,24 @@ class ValentineGame {
     }
 
     // Validar interfaz
-    validateUI() {
+    async validateUI() {
+        // Esperar a que el módulo UI esté disponible
+        let attempts = 0;
+        const maxAttempts = 10;
+        
+        while (!window.ButtonManager && attempts < maxAttempts) {
+            console.log(`⏳ Esperando módulo de interfaz... (${attempts + 1}/${maxAttempts})`);
+            await new Promise(resolve => setTimeout(resolve, 100));
+            attempts++;
+        }
+        
         if (!window.ButtonManager) {
-            console.error('❌ Módulo de interfaz no encontrado');
+            console.error('❌ Módulo de interfaz no encontrado después de esperar');
+            console.log('Estado actual:', {
+                ValentineConfig: !!window.ValentineConfig,
+                ValentineAnimations: !!window.ValentineAnimations,
+                ButtonManager: !!window.ButtonManager
+            });
             throw new Error('Módulo de interfaz no encontrado');
         }
         
@@ -102,18 +132,17 @@ class ValentineGame {
     // Validar que todo esté funcionando
     validateInitialization() {
         // Validar elementos críticos
-        const yesBtn = document.getElementById('yesBtn');
-        const noBtn = document.getElementById('noBtn');
-        const buttonContainer = document.querySelector('.button-container');
+        const showLetterBtn = document.getElementById('showLetterBtn');
+        const friendshipMessage = document.querySelector('.friendship-message');
         const mainContent = document.querySelector('.main-content');
 
-        if (!yesBtn || !noBtn) {
-            console.error('Botones no encontrados:', { yesBtn, noBtn });
-            throw new Error('No se encontraron los botones principales');
+        if (!showLetterBtn) {
+            console.error('Botón de amistad no encontrado:', { showLetterBtn });
+            throw new Error('No se encontró el botón principal');
         }
 
-        if (!buttonContainer) {
-            console.warn('Contenedor de botones no encontrado, pero continuando...');
+        if (!friendshipMessage) {
+            console.warn('Contenedor de amistad no encontrado, pero continuando...');
         }
 
         if (!mainContent) {
@@ -239,9 +268,8 @@ class ValentineGame {
         console.log('Game Info:', this.getGameInfo());
         console.log('Config:', this.modules.config);
         console.log('Elements:', {
-            yesBtn: document.getElementById('yesBtn'),
-            noBtn: document.getElementById('noBtn'),
-            buttonContainer: document.querySelector('.button-container'),
+            showLetterBtn: document.getElementById('showLetterBtn'),
+            friendshipMessage: document.querySelector('.friendship-message'),
             mainContent: document.querySelector('.main-content'),
             heartAnimation: document.getElementById('heartAnimation')
         });

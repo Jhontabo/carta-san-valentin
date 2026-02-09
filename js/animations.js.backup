@@ -100,7 +100,7 @@ class AnimationManager {
         }
     }
 
-     // Mostrar carta de amistad con animaciones
+    // Mostrar carta de amor con animaciones
     showLoveLetter() {
         // Prevenir duplicados
         if (document.querySelector('.love-letter')) {
@@ -109,12 +109,12 @@ class AnimationManager {
         }
 
         const mainContent = document.querySelector('.main-content');
-        const friendshipMessage = document.querySelector('.friendship-message');
+        const buttonContainer = document.querySelector('.button-container');
         
-        if (!mainContent || !friendshipMessage) return;
+        if (!mainContent || !buttonContainer) return;
 
-        // Ocultar botón de amistad
-        friendshipMessage.style.display = 'none';
+        // Ocultar botones
+        buttonContainer.style.display = 'none';
 
         // Crear explosión de flores primero
         this.createFlowersExplosion();
@@ -139,25 +139,23 @@ class AnimationManager {
         letter.innerHTML = `
             <div class="letter-content">
                 <div class="letter-header">
-                    <h3 class="valentine-text">💙 Feliz Día del Amistad, Marbel 💙</h3>
+                    <h3 class="valentine-text">💝 Mi Carta de San Valentín 💝</h3>
                 </div>
                 <div class="letter-body">
                    
-
 <p class="letter-text">
-  Querida Marbel, mi flaca de mi corazón:<br><br>
-
-  Feliz Día de la Amistad. Aunque la vida no nos llevó por el camino que imaginamos, quiero que sepas que el tiempo que compartimos fue real y muy valioso para mí. Estar contigo me hizo feliz de una forma sincera, y eso siempre lo voy a agradecer.<br><br>
-
-  Me hubiera gustado que fueras tú la persona con la que pasara este día, compartirlo contigo como tantas cosas que imaginé. Pero no se dio así, y entiendo que quizá la vida tenía planes distintos para cada uno de nosotros.<br><br>
-
-  De corazón te deseo que la pases muy bien, que todo lo que hagas te salga bonito y que la vida te sorprenda con cosas buenas. Yo seguiré con mi camino, como toca, guardando lo bueno y agradeciendo lo que fue.
+    Mi amor precioso,  
+    desde que te conocí supe que eras especial. Tu sonrisa ilumina mis días y tu risa siempre me alegra. 
+    Cada momento contigo se siente ligero y bonito, y haces que todo tenga un toque especial. 
+    Este San Valentín no se trata de regalos, sino de disfrutar lo bien que se siente compartir contigo.  
+    <br><br>
+    ❤️ Me encantas ❤️
 </p>
                 </div>
                 <div class="hearts-decoration">
-                    <span class="heart-icon">💙</span>
-                    <span class="heart-icon">💙</span>
-                    <span class="heart-icon">💙</span>
+                    <span class="heart-icon">🌹</span>
+                    <span class="heart-icon">💕</span>
+                    <span class="heart-icon">🌹</span>
                 </div>
             </div>
         `;
@@ -404,15 +402,4 @@ class AnimationManager {
 }
 
 // Crear instancia global del manejador de animaciones
-// Esperar a que el DOM esté listo
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('🎨 Creando AnimationManager...');
-        window.ValentineAnimations = new AnimationManager();
-        console.log('✅ AnimationManager creado');
-    });
-} else {
-    console.log('🎨 Creando AnimationManager (DOM ya listo)...');
-    window.ValentineAnimations = new AnimationManager();
-    console.log('✅ AnimationManager creado');
-}
+window.ValentineAnimations = new AnimationManager();

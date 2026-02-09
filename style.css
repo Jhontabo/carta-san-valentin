@@ -224,13 +224,12 @@ body {
     }
 }
 
-.button-container {
+.friendship-message {
     display: flex;
-    gap: 30px;
     justify-content: center;
-    margin-bottom: 20px;
-    min-height: 80px;
     align-items: center;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .valentine-btn {
@@ -261,6 +260,41 @@ body {
 .valentine-btn:active {
     transform: translateY(1px);
     box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+}
+
+/* Botón de amistad */
+.friendship-btn {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    transform: translateY(0);
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color: white;
+    margin: 0 auto;
+}
+
+.friendship-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(45deg, #5a6fd8, #6b4190);
+}
+
+.friendship-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
 }
 
 .yes-btn {
@@ -399,7 +433,7 @@ body {
     }
 }
 
-/* Estilos para la carta de amor */
+/* Estilos para la carta de amistad *
 .love-letter {
     background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
     border: 6px solid #ff6b6b;
