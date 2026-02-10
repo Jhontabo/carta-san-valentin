@@ -145,33 +145,40 @@ class AnimationManager {
                    
 
 
-
-
 <p class="letter-text">
-  Querida Marbel, mi flaca, mi nena:<br><br>
 
-  💙 Feliz Día de la Amistad… como me hubiera gustado que fuera contigo 💙<br><br>
+  💙Querida Marbel, mi flaca, mi nena, mi niña💙<br><br>
 
-  Hoy quería escribirte unas palabras desde el corazón. Recordar todo lo que compartimos y lo bonito que fue, porque cada momento contigo tuvo su valor y me dejó recuerdos que siempre voy a guardar.<br><br>
+  💙 Feliz Día de la Amistad 💙<br><br>
 
-  Estar contigo me hizo sonreír, me enseñó cosas nuevas y me regaló momentos que seguirán conmigo. Fue algo bueno, algo real, y eso es lo que quiero recordar.<br><br>
+  Hoy quería regalarte unas palabras desde el corazón, sin expectativas, solo con cariño. Recordar lo bonito que compartimos, porque cada momento contigo tuvo su valor y me dejó recuerdos que guardo con gratitud.<br><br>
 
-  La vida nos llevó por caminos distintos, y aunque nunca fuimos pareja, ambos tuvimos errores. En algún momento no hice las cosas bien por orgullo, y aunque me haces mucha falta, espero que solo sea cuestión de tiempo. Dudo que pueda olvidarte del todo, a pesar de que todo lo nuestro ya haya terminado.<br><br>
+  Estar contigo me hizo sonreír, aprender y disfrutar instantes sencillos pero reales. Fue algo bonito, algo sincero, y eso es lo que elijo conservar.<br><br>
 
-  Toma todo esto como una señal de Dios. Sé que realmente te irá mejor sin mí, y que esta es la oportunidad para que tu vida siga su rumbo. Yo no soy el hombre que quieres, aunque siempre estaré ahí si alguna vez me necesitas. Espero que encuentres a alguien bueno, alguien que te valore como mereces.<br><br>
+  La vida nos llevó por caminos distintos, y así tenía que ser. No lo veo como algo negativo, sino como parte del proceso de cada uno. Lo nuestro tuvo sentido en su momento, y eso ya es suficiente.<br><br>
 
-  No quiero que pienses que todos los hombres son malos, aunque entiendo que puedas sentirlo. A veces se piensa que los hombres son enemigos, pero no es así. Por mi parte no soy un mal hombre, tenemos corazón aunque no parezca jaja; en su momento sentía que el corazón se me rompía, pero no te culpo de nada: llegaste en un momento difícil, y yo decidí quererte, así que en parte fue mi culpa.<br><br>
+  Quiero que sepas que te deseo cosas buenas, tranquilidad, sonrisas y personas que te cuiden como mereces. Confío en ti, en tus sueños y en todo lo que eres capaz de lograr.<br><br>
 
-  Me encantaba tu mirada, tu cabello, tus labios, tu forma de ser y de tratarme. Todo eso hizo que cada momento contigo fuera único y especial. Sé que eres increíble, con sueños grandes y un corazón generoso. Confío en que vas a cumplir todo lo que te propongas y que seguirás creyendo en el amor, porque te lo mereces.<br><br>
+  Aunque hoy estemos desde un lugar diferente, siempre tendrás en mí a alguien que te aprecia y que puede escucharte cuando lo necesites. Sin reclamos, sin presiones, solo desde el respeto y el cariño.<br><br>
 
-  Lo que vivimos siempre tendrá su valor, y te escribo esto con cariño y gratitud por lo que nunca fuimos formalmente, pero tú sabes que en el fondo fue lo nuestro.<br><br>
+  Me quedo con lo bonito: tu forma de ser, tu sonrisa, tu energía y todo lo que hizo que compartir contigo fuera especial. Eso no se borra, se agradece.<br><br>
 
-  Esta es la primera carta que le escribo a una mujer, así que espero que te sientas especial, porque seguramente no lo vuelva a hacer 😂. Si quieres, le puedes tomar captura; ya sabes que siempre borro las cosas, me conoces muy bien en algunos aspectos.<br><br>
+  Esta carta no es para mirar atrás con tristeza, sino para reconocer lo vivido con calma y buenos sentimientos.<br><br>
 
-  Te deseo un feliz Día del Amor y la Amistad, con todo mi cariño.<br><br>
+  Te deseo un muy feliz Día del Amor y la Amistad, de corazón.<br><br>
 
-  Jhoncito 💙
+  tu niño,tu nene Jhoncito 💙
 </p>
+
+                <div class="music-section">
+                    <p class="music-text">💙 Esta es la canción que me recuerda a ti 💙</p>
+                    <a href="https://www.youtube.com/watch?v=gDyjzFwrW5o" target="_blank" class="music-link">
+                        <div class="music-button">
+                            <span class="music-icon">🎵</span>
+                            <span class="music-label">Escuchar nuestra canción</span>
+                        </div>
+                    </a>
+                </div>
 
                 </div>
                 <div class="hearts-decoration">
