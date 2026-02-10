@@ -264,32 +264,198 @@ body {
 
 /* Botón de amistad */
 .friendship-btn {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     border: none;
-    padding: 20px 40px;
+    padding: 20px;
     cursor: pointer;
     position: relative;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
     transform: translateY(0);
-    border-radius: 30px;
+    border-radius: 20px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 300px;
+    min-width: 200px;
+    min-height: 200px;
     box-sizing: border-box;
-    white-space: nowrap;
     color: white;
     margin: 0 auto;
+    overflow: visible;
+}
+
+/* Caja de regalo */
+.gift-box {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+}
+
+.box-lid {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    border: 3px solid #c44569;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ribbon {
+    font-size: 20px;
+    animation: ribbonBounce 2s ease-in-out infinite;
+}
+
+.box-body {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    border: 3px solid #c44569;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.heart-reveal {
+    font-size: 0;
+    opacity: 0;
+    transition: all 0.6s ease 0.3s;
+    transform: scale(0);
+}
+
+.friendship-btn:hover .box-lid {
+    transform: rotateX(-120deg) translateY(-20px);
+    opacity: 0;
+}
+
+.friendship-btn:hover .heart-reveal {
+    font-size: 70px;
+    opacity: 1;
+    transform: scale(1);
+    animation: heartPulse 1s ease-in-out infinite;
+}
+
+.friendship-btn:hover .gift-box {
+    transform: scale(1.1);
+}
+
+/* Confeti */
+.confetti {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+}
+
+.confetti-piece {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+
+.confetti-piece:nth-child(1) {
+    background: #ff6b6b;
+    left: 20%;
+    top: 50%;
+}
+
+.confetti-piece:nth-child(2) {
+    background: #4ecdc4;
+    left: 40%;
+    top: 30%;
+}
+
+.confetti-piece:nth-child(3) {
+    background: #ffe66d;
+    left: 60%;
+    top: 40%;
+}
+
+.confetti-piece:nth-child(4) {
+    background: #a8e6cf;
+    left: 30%;
+    top: 70%;
+}
+
+.confetti-piece:nth-child(5) {
+    background: #ff8cc8;
+    left: 70%;
+    top: 60%;
+}
+
+.confetti-piece:nth-child(6) {
+    background: #95e1d3;
+    left: 50%;
+    top: 80%;
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(1) {
+    opacity: 1;
+    transform: translate(-30px, -60px) rotate(360deg);
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(2) {
+    opacity: 1;
+    transform: translate(40px, -80px) rotate(-360deg);
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(3) {
+    opacity: 1;
+    transform: translate(-50px, -70px) rotate(480deg);
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(4) {
+    opacity: 1;
+    transform: translate(60px, -50px) rotate(-480deg);
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(5) {
+    opacity: 1;
+    transform: translate(-40px, -90px) rotate(600deg);
+}
+
+.friendship-btn:hover .confetti-piece:nth-child(6) {
+    opacity: 1;
+    transform: translate(50px, -60px) rotate(-600deg);
+}
+
+@keyframes ribbonBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+@keyframes heartPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
 }
 
 .friendship-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
-    background: linear-gradient(45deg, #5a6fd8, #6b4190);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(102, 126, 234, 0.6);
+    background: linear-gradient(135deg, #7c8ff0, #8e5ba8);
 }
 
 .friendship-btn:active {
@@ -433,23 +599,23 @@ body {
     }
 }
 
-/* Estilos para la carta de amistad *
+/* Estilos para la carta de amistad */
 .love-letter {
-    background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
-    border: 6px solid #ff6b6b;
-    border-radius: 12px;
-    padding: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 4px solid #667eea;
+    border-radius: 16px;
+    padding: 35px;
     box-shadow:
-        0 0 0 3px #ff6b6b,
-        0 0 0 6px #ff8e8e,
-        0 15px 30px rgba(255, 107, 107, 0.3);
-    max-width: 500px;
+        0 0 0 2px rgba(102, 126, 234, 0.1),
+        0 10px 25px rgba(102, 126, 234, 0.15),
+        0 20px 40px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
     margin: 20px auto;
     position: relative;
     opacity: 0;
     transform: translateY(30px);
     overflow: hidden;
-    width: 90%;
+    width: 95%;
     box-sizing: border-box;
 }
 
@@ -460,8 +626,8 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.1), transparent);
-    animation: shimmer 3s infinite;
+    background: linear-gradient(45deg, transparent, rgba(102, 126, 234, 0.05), transparent);
+    animation: shimmer 4s infinite;
 }
 
 @keyframes shimmer {
@@ -488,45 +654,52 @@ body {
 
 .letter-header {
     text-align: center;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px dashed #ff6b6b;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgba(102, 126, 234, 0.2);
+    border-radius: 0 0 8px 8px;
 }
 
 .letter-header h3 {
-    color: #ff6b6b;
-    font-size: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    animation: heartbeat 1.5s ease-in-out infinite;
+    color: #667eea;
+    font-size: 24px;
+    text-shadow: none;
+    animation: heartbeat 2s ease-in-out infinite;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
 }
 
 .letter-body {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 25px;
 }
 
 .letter-text {
-    color: #555;
-    font-size: 14px;
-    line-height: 1.4;
+    color: #2c3e50;
+    font-size: 17px;
+    line-height: 1.8;
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    text-align: left;
     white-space: pre-line;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .signature {
     display: block;
     text-align: right;
-    margin-top: 15px;
+    margin-top: 20px;
     font-style: italic;
-    color: #ff6b6b;
-    font-size: 16px;
+    color: #667eea;
+    font-size: 18px;
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
 }
@@ -534,14 +707,16 @@ body {
 .hearts-decoration {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    margin-top: 12px;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid rgba(102, 126, 234, 0.1);
 }
 
 .heart-icon {
-    font-size: 18px;
-    animation: float 3s ease-in-out infinite;
-    animation-delay: calc(var(--i) * 0.3s);
+    font-size: 22px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.4s);
 }
 
 .heart-icon:nth-child(1) {

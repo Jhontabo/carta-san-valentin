@@ -144,15 +144,23 @@ class AnimationManager {
                 <div class="letter-body">
                    
 
+
 <p class="letter-text">
-  Querida Marbel, mi flaca de mi corazón:<br><br>
+Querida Marbel, mi flaca de mi corazón:<br><br>
 
-  Feliz Día de la Amistad. Aunque la vida no nos llevó por el camino que imaginamos, quiero que sepas que el tiempo que compartimos fue real y muy valioso para mí. Estar contigo me hizo feliz de una forma sincera, y eso siempre lo voy a agradecer.<br><br>
+💙 Feliz Día de la Amistad 💙<br><br>
 
-  Me hubiera gustado que fueras tú la persona con la que pasara este día, compartirlo contigo como tantas cosas que imaginé. Pero no se dio así, y entiendo que quizá la vida tenía planes distintos para cada uno de nosotros.<br><br>
+Hoy solo quiero agradecerte. Agradecerte por la persona tan bonita que eres y por todo lo que compartimos, porque cada momento contigo fue real y tuvo un valor especial para mí.<br><br>
 
-  De corazón te deseo que la pases muy bien, que todo lo que hagas te salga bonito y que la vida te sorprenda con cosas buenas. Yo seguiré con mi camino, como toca, guardando lo bueno y agradeciendo lo que fue.
+Estar contigo me hizo bien, me regaló sonrisas, aprendizajes y recuerdos que guardo con cariño. Eso no se borra, y siempre lo voy a apreciar.<br><br>
+
+La vida a veces toma rumbos distintos a los que uno imagina, pero aun así me quedo con lo bueno, con lo sincero y con lo que sumó.<br><br>
+
+Sé que eres una gran mujer, con valores y un corazón bonito, y confío en que siempre sabrás hacer las cosas de la mejor manera. Por eso deseo de verdad que te vaya muy bien en la vida, que logres todo lo que te propongas y que el camino te regale muchas cosas lindas, porque te las mereces.<br><br>
+
+Tal vez ya no somos ni seremos, pero eso no cambia nada de lo que fue ni del agradecimiento que siento. Gracias por haber sido parte de mi historia y por todo lo que dejaste en ella. Todo esto te lo escribo de corazón, tu amigo Jhoncito 💙.
 </p>
+
                 </div>
                 <div class="hearts-decoration">
                     <span class="heart-icon">💙</span>
