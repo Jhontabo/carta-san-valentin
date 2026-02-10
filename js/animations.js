@@ -167,7 +167,7 @@ class AnimationManager {
 
   Te deseo un muy feliz Día del Amor y la Amistad, de corazón.<br><br>
 
-  tu niño,tu nene Jhoncito 💙
+  tu niño,tu nene que te quiere mucho Jhon💙
 </p>
 
                 <div class="music-section">
