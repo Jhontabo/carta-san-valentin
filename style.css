@@ -951,30 +951,22 @@ body {
     }
 
     .letter-text {
-        font-size: 12px;
-        line-height: 1.2;
+        font-size: 15px;
+        line-height: 1.6;
+        padding: 15px;
     }
 
     .signature {
-        font-size: 13px;
-        margin-top: 8px;
+        font-size: 16px;
+        margin-top: 10px;
     }
 
     .heart-icon {
-        font-size: 14px;
-    }
-
-    .letter-header h3 {
         font-size: 16px;
     }
 
-    .letter-text {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .signature {
-        font-size: 14px;
+    .letter-header h3 {
+        font-size: 18px;
     }
 }
 
@@ -1210,20 +1202,20 @@ body {
     }
     
     .music-text {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 18px;
+        margin-bottom: 12px;
     }
     
     .music-button {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 12px 22px;
+        font-size: 16px;
     }
     
     .music-icon {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .music-label {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
