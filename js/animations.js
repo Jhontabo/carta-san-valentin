@@ -175,7 +175,7 @@ class AnimationManager {
                     <a href="https://www.youtube.com/watch?v=gDyjzFwrW5o" target="_blank" class="music-link">
                         <div class="music-button">
                             <span class="music-icon">🎵</span>
-                            <span class="music-label">Escuchar nuestra canción</span>
+                            <span class="music-label">Escuchar tu canción</span>
                         </div>
                     </a>
                 </div>
