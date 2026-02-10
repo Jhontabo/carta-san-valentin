@@ -145,6 +145,7 @@ class AnimationManager {
                    
 
 
+
 <p class="letter-text">
 Querida Marbel, mi flaca de mi corazón:<br><br>
 
@@ -158,14 +159,17 @@ La vida a veces toma rumbos distintos a los que uno imagina, pero aun así me qu
 
 Sé que eres una gran mujer, con valores y un corazón bonito, y confío en que siempre sabrás hacer las cosas de la mejor manera. Por eso deseo de verdad que te vaya muy bien en la vida, que logres todo lo que te propongas y que el camino te regale muchas cosas lindas, porque te las mereces.<br><br>
 
-Tal vez ya no somos ni seremos, pero eso no cambia nada de lo que fue ni del agradecimiento que siento. Gracias por haber sido parte de mi historia y por todo lo que dejaste en ella. Todo esto te lo escribo de corazón, tu amigo Jhoncito 💙.
+Tal vez ya no somos ni seremos, pero eso no cambia nada de lo que fue ni del agradecimiento que siento. Gracias por haber sido parte de mi historia y por todo lo que dejaste en ella. Todo esto te lo escribo de corazón 💙Jhoncito💙.
 </p>
+
 
                 </div>
                 <div class="hearts-decoration">
                     <span class="heart-icon">💙</span>
-                    <span class="heart-icon">💙</span>
-                    <span class="heart-icon">💙</span>
+                    <span class="heart-icon">💕</span>
+                    <span class="heart-icon">💗</span>
+                    <span class="heart-icon">💖</span>
+                    <span class="heart-icon">💝</span>
                 </div>
             </div>
         `;
