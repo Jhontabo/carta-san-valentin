@@ -145,30 +145,41 @@ class AnimationManager {
                    
 
 
+
 <p class="letter-text">
 
-  💙Querida Marbel, mi flaca, mi nena, mi niña💙<br><br>
+💙Querida Marbel, mi flaca… aunque ahora solo Marbel💙<br><br>
 
-  💙 Feliz Día de la Amistad 💙<br><br>
+💙 Feliz Día de la Amistad 💙<br><br>
 
-  Hoy quería regalarte unas palabras desde el corazón, sin expectativas, solo con cariño. Recordar lo bonito que compartimos, porque cada momento contigo tuvo su valor y me dejó recuerdos que guardo con gratitud.<br><br>
+Hola… no sé muy bien cómo empezar esto. Es la primera vez que escribo algo así, así que solo voy a decir lo que siento, sin reclamos, sin reproches… solo desde lo que me nace.<br><br>
 
-  Estar contigo me hizo sonreír, aprender y disfrutar instantes sencillos pero reales. Fue algo bonito, algo sincero, y eso es lo que elijo conservar.<br><br>
+Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue un error o si el destino simplemente quiso que pasara, pero desde ahí algo cambió. Y la primera vez que te vi en persona… estabas nerviosa, y yo no entendía por qué. Ese momento vive en mi memoria. Yo estaba pasando por un tiempo difícil, muy oscuro… y sin saberlo fuiste una pequeña luz. Hiciste mis días más llevaderos cuando más lo necesitaba.<br><br>
 
-  La vida nos llevó por caminos distintos, y así tenía que ser. No lo veo como algo negativo, sino como parte del proceso de cada uno. Lo nuestro tuvo sentido en su momento, y eso ya es suficiente.<br><br>
+Sí, me dolió cuando elegiste a alguien más. No lo voy a negar. Pero también reconozco que yo tuve mis errores. No todo fue perfecto, y asumir eso también es parte de crecer. El tiempo pasa… y la vida sigue, aunque a veces uno quisiera que se detuviera un poco más.<br><br>
 
-  Quiero que sepas que te deseo cosas buenas, tranquilidad, sonrisas y personas que te cuiden como mereces. Confío en ti, en tus sueños y en todo lo que eres capaz de lograr.<br><br>
+Hubo días en los que me preguntaba si de verdad me quisiste. Quiero creer que sí. Y si en algún momento fue real, con eso me basta. Porque lo que yo sentí sí fue real.<br><br>
 
-  Aunque hoy estemos desde un lugar diferente, siempre tendrás en mí a alguien que te aprecia y que puede escucharte cuando lo necesites. Sin reclamos, sin presiones, solo desde el respeto y el cariño.<br><br>
+Hoy ya no siento rabia, ni resentimiento. Solo agradecimiento. Porque me diste una dosis de realidad que necesitaba para madurar, para entender muchas cosas. No eres una mala mujer. Solo tomaste las decisiones que creíste correctas. Todos nos equivocamos, todos aprendemos.<br><br>
 
-  Me quedo con lo bonito: tu forma de ser, tu sonrisa, tu energía y todo lo que hizo que compartir contigo fuera especial. Eso no se borra, se agradece.<br><br>
+Y aunque no sea conmigo, deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces. Creo que eso es amar: querer que el otro esté bien, incluso si no es a tu lado.<br><br>
 
-  Esta carta no es para mirar atrás con tristeza, sino para reconocer lo vivido con calma y buenos sentimientos.<br><br>
+Tal vez soy muy romántico, tal vez demasiado sensible… pero soy así. No me gusta guardarme lo que siento, porque después uno se arrepiente. La vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
 
-  Te deseo un muy feliz Día del Amor y la Amistad, de corazón.<br><br>
+No somos nada ahora, y aun así te escribo esto. Pero no lo hago para volver atrás, sino para cerrar el ciclo con paz. Me quedo con lo bonito, con lo que fue, aunque haya sido corto. Para mí fue suficiente para marcarme.<br><br>
 
-  tu niño,tu nene que te quiere mucho Jhon💙
+Eres una gran mujer. Una gran hija, una gran amiga, una gran persona. No permitas que nadie te haga creer lo contrario.<br><br>
+
+Te deseo un resto de vida lleno de cosas buenas. Y yo estaré aquí, recordando con un poco de nostalgia… pero también con gratitud.<br><br>
+
+Feliz Día del Amor y la Amistad, mi niña hermosa.<br><br>
+
+Con cariño sincero,<br>
+tu niño, tu nene que te quiere mucho,<br>
+Jhon 💙
+
 </p>
+
 
                 <div class="music-section">
                     <p class="music-text">💙 Esta es la canción que me recuerda a ti 💙</p>
