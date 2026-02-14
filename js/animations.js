@@ -10,6 +10,110 @@ class AnimationManager {
     init() {
         this.createBackgroundElements();
         this.setupAnimationStyles();
+        this.setupIntro();
+    }
+
+    setupIntro() {
+        const introOverlay = document.getElementById('introOverlay');
+        const introClick = document.getElementById('introClick');
+        const introHeart = document.getElementById('introHeart');
+        
+        if (!introOverlay) return;
+
+        this.createIntroSparkles();
+        this.createIntroHearts();
+
+        const startExperience = () => {
+            this.playOpeningAnimation();
+        };
+
+        if (introClick) {
+            introClick.addEventListener('click', startExperience);
+        }
+
+        if (introHeart) {
+            introHeart.addEventListener('click', startExperience);
+        }
+    }
+
+    createIntroSparkles() {
+        const container = document.getElementById('introSparkles');
+        if (!container) return;
+
+        const sparkles = ['✨', '⭐', '💫', '🌟'];
+        
+        for (let i = 0; i < 20; i++) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'intro-sparkle';
+            sparkle.textContent = sparkles[Math.floor(Math.random() * sparkles.length)];
+            
+            sparkle.style.left = Math.random() * 100 + '%';
+            sparkle.style.top = Math.random() * 100 + '%';
+            sparkle.style.animationDelay = Math.random() * 2 + 's';
+            sparkle.style.fontSize = (Math.random() * 15 + 15) + 'px';
+            
+            container.appendChild(sparkle);
+        }
+    }
+
+    createIntroHearts() {
+        const container = document.getElementById('introHearts');
+        if (!container) return;
+
+        const hearts = ['💗', '💖', '💕', '💓', '💞'];
+        
+        for (let i = 0; i < 15; i++) {
+            const heart = document.createElement('div');
+            heart.className = 'intro-floating-heart';
+            heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+            
+            heart.style.left = Math.random() * 100 + '%';
+            heart.style.top = Math.random() * 100 + '%';
+            heart.style.animationDelay = Math.random() * 3 + 's';
+            heart.style.animationDuration = (Math.random() * 2 + 3) + 's';
+            heart.style.fontSize = (Math.random() * 15 + 20) + 'px';
+            
+            container.appendChild(heart);
+        }
+    }
+
+    playOpeningAnimation() {
+        const introOverlay = document.getElementById('introOverlay');
+        const openingOverlay = document.getElementById('openingOverlay');
+        
+        if (!introOverlay || !openingOverlay) {
+            this.showMainContent();
+            return;
+        }
+
+        introOverlay.classList.add('hidden');
+        
+        setTimeout(() => {
+            openingOverlay.classList.add('active');
+            
+            setTimeout(() => {
+                openingOverlay.classList.remove('active');
+                
+                setTimeout(() => {
+                    this.showMainContent();
+                }, 500);
+            }, 1500);
+        }, 800);
+    }
+
+    showMainContent() {
+        const friendshipMessage = document.querySelector('.friendship-message');
+        if (friendshipMessage) {
+            friendshipMessage.style.display = 'flex';
+            friendshipMessage.style.animation = 'floatIn 0.8s ease-out';
+        }
+        
+        const title = document.querySelector('.valentine-title');
+        if (title) {
+            title.style.opacity = '1';
+        }
+
+        this.triggerCelebrationVibration();
     }
 
     // Crear elementos de fondo (corazones, flores, brillis)
@@ -151,38 +255,36 @@ class AnimationManager {
 
 💙 <strong>Querida Marbel, mi flaca, mi niña, mi corazón</strong> 💙<br><br>
 
-💙 <strong>Feliz Día de la Amistad</strong> 💙<br><br>
+💙 <strong>Feliz Día del Amor y la Amistad</strong> 💙<br><br>
 
-Hola… No sé muy bien cómo empezar esto. Es la primera vez que escribo algo así, así que solo voy a decir lo que siento, simplemente lo que nace desde adentro.<br><br>
+Hola…
+No sé muy bien cómo empezar. Es la primera vez que escribo algo así, pero solo quiero decir lo que siento, lo que nace sin pensar demasiado, lo que llevo guardado desde hace tiempo en el corazón.<br><br>
 
-Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue un error o si fue el destino; al final eso no importa, ¿o sí? También recuerdo la primera vez que te vi en persona… Estabas nerviosa y yo no entendía por qué. Ese momento vive en mi memoria. A veces el recuerdo es mejor que la realidad, pero qué bueno que fue así.<br><br>
+Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue casualidad o destino… pero cambió algo en mí. Y también recuerdo cuando te vi en persona, tan nerviosa, tan linda, y yo sin entender por qué… Ese momento quedó grabado en mi memoria como uno de esos recuerdos que uno guarda para siempre.<br><br>
 
-Luego de ese día, te tomé mucho cariño aunque, bueno, nunca he sido muy bueno para expresarme. Por eso creo que a veces debo estar solo; uno mismo siempre se entiende mejor.<br><br>
+Después de ese día te fui tomando un cariño enorme. Tal vez nunca supe expresarlo bien, porque no soy bueno con las palabras… pero créeme, todo lo que sentí fue real. A veces uno se guarda lo que siente por miedo o por orgullo, y termina perdiendo cosas bonitas que valían la pena.<br><br>
 
-Creo que jugamos un juego en el que íbamos a salir lastimados, ya sabes a qué me refiero. Hubo días en los que me preguntaba si de verdad me quisiste; quiero creer que sí, aunque sea un poquito. Con eso me basta.<br><br>
+Quizás jugamos un juego donde sabíamos que podíamos salir heridos. Hubo días en que me pregunté si de verdad me quisiste… y quiero creer que sí, aunque haya sido un poquito. Con eso me basta, porque lo que vivimos, por corto que haya sido, fue sincero para mí.<br><br>
 
-En fin, esta carta no es para reclamos —ni que tuviera ese derecho, jeje—. Lo que sí quiero es decirte esto: deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces, todo lo que no voy a poder hacer yo.<br><br>
+Esta carta no es para reclamar nada, porque no tengo ese derecho. Solo quiero desearte felicidad… de la buena, de la que te haga reír fuerte, dormir tranquila y sentirte amada. Que llegue alguien que te cuide, te valore, te abrace fuerte y te dé todo lo bonito que mereces, incluso lo que yo no supe o no pude darte.<br><br>
 
-Tal vez soy un romántico, o tal vez un pendejo, no lo sé... Solo soy un hombre, un ser humano con sus errores que, al fin y al cabo, está viviendo. No me gusta guardarme lo que siento porque ya sabes que luego me arrepiento; la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
+Tal vez soy un romántico, tal vez un tonto… pero soy humano. Y no quiero quedarme callado con lo que siento, porque la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el alma.<br><br>
 
-Ahora ya no somos ni seremos, y aun así te escribo esto, esto me convierte en un pendejaso, pero me vale verg@ jaja, por lo general hago lo que me sale del corazón o de los que me cuelgan asi que no me importa si piensas que soy un arrastrado. Espero que te guste este intento de carta jaja.<br><br>
+Ahora ya no somos ni seremos… y aun así te escribo. No para volver atrás, sino para cerrar con amor, con gratitud y con respeto. Porque fuiste una parte muy bonita de mi vida. Fuiste mi personita especial, mi flaca… y ese apodo siempre será tuyo.<br><br>
 
-Eres una gran mujer: una gran hija, una gran hermana, una gran tia,una gran amiga, espero que en un futuro una gran madre, una excelente persona sobre todo. Fuiste mi personita especial y, aunque fue por poco tiempo, para mí fue suficiente siempre seras mi flaca, ese apodo es solo tuyo.<br><br>
+Eres una gran mujer: una gran hija, hermana, tía, amiga… y estoy seguro de que serás todo lo que sueñas. Gracias por lo que me diste, por lo que me enseñaste, y perdón por cualquier cosa que te haya hecho daño. De corazón, perdón.<br><br>
 
-Sé que eres una gran persona, me lo has demostrado, así que no pienses que te guardo algún tipo de rencor, espero tu tampoco lo hagas con este pobre hombre.te pido una disculpa  por cualquier cosa que haya hecho; así que perdón, hermosa.<br><br>
-
-Te deseo un resto de vida lleno de cosas bonitas. Yo estaré aquí, aunque ya no de la misma manera porque eso ya no puede ser, pero siempre tendrás un amigo.<br><br>
+Te deseo una vida llena de cosas bonitas. Yo estaré aquí, no de la misma forma porque ya no se puede… pero siempre con cariño, siempre deseándote lo mejor. Aquí tendrás a un amigo sincero, eso tenlo por seguro.<br><br>
 
 Feliz Día del Amor y la Amistad, mi niña hermosa.<br><br>
 
 Con cariño sincero,<br>
-Tu niño, tu nene que te quiere mucho,<br>
+Tu niño, tu nene… y desde hace un tiempo, tu amigo que te quiere mucho,<br>
 Jhon 💙<br><br>
 
-<strong>P.D.</strong> Escribí esta carta como 20 veces para que quedara bien, así que valórala mucho. Seguramente no volveré a escribir algo así nunca más. 😊
+<strong>P.D.</strong> Escribí esta carta muchas veces porque quería que fuera especial para ti… porque tú fuiste especial para mí. 😊
 
 </p>
-
                 <div class="music-section">
                     <p class="music-text">💙 Esta es la canción que me recuerda a ti 💙</p>
                     <a href="https://www.youtube.com/watch?v=gDyjzFwrW5o" target="_blank" class="music-link">
