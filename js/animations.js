@@ -17,6 +17,10 @@ class AnimationManager {
         const introOverlay = document.getElementById('introOverlay');
         const introClick = document.getElementById('introClick');
         const introHeart = document.getElementById('introHeart');
+        const cupid1 = document.getElementById('cupid1');
+        const cupid2 = document.getElementById('cupid2');
+        const heartArrow1 = document.getElementById('heartArrow1');
+        const heartArrow2 = document.getElementById('heartArrow2');
         
         if (!introOverlay) return;
 
@@ -34,6 +38,11 @@ class AnimationManager {
         if (introHeart) {
             introHeart.addEventListener('click', startExperience);
         }
+
+        if (cupid1) cupid1.addEventListener('click', startExperience);
+        if (cupid2) cupid2.addEventListener('click', startExperience);
+        if (heartArrow1) heartArrow1.addEventListener('click', startExperience);
+        if (heartArrow2) heartArrow2.addEventListener('click', startExperience);
     }
 
     createIntroSparkles() {
@@ -78,6 +87,8 @@ class AnimationManager {
     }
 
     playOpeningAnimation() {
+        this.createFlyingArrow();
+        
         const introOverlay = document.getElementById('introOverlay');
         const openingOverlay = document.getElementById('openingOverlay');
         
@@ -99,6 +110,19 @@ class AnimationManager {
                 }, 500);
             }, 1500);
         }, 800);
+    }
+
+    createFlyingArrow() {
+        const arrow = document.createElement('div');
+        arrow.className = 'flying-arrow';
+        arrow.textContent = '💘';
+        
+        arrow.style.left = '30%';
+        arrow.style.top = '60%';
+        
+        document.body.appendChild(arrow);
+        
+        setTimeout(() => arrow.remove(), 1500);
     }
 
     showMainContent() {

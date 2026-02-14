@@ -149,6 +149,24 @@ body {
     }
 }
 
+@keyframes cupidFloat {
+    0%, 100% {
+        transform: translateY(0) rotate(-5deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(5deg);
+    }
+}
+
+@keyframes arrowPulse {
+    0%, 100% {
+        transform: translateX(0) rotate(45deg);
+    }
+    50% {
+        transform: translateX(10px) rotate(45deg);
+    }
+}
+
 /* Corazones flotantes */
 .hearts {
     position: absolute;
@@ -1330,6 +1348,54 @@ body {
     animation: floatIn 1s ease-out;
 }
 
+.intro-cupid {
+    position: absolute;
+    font-size: 60px;
+    animation: cupidFloat 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(255, 107, 107, 0.6));
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.intro-cupid:hover {
+    transform: scale(1.2);
+}
+
+.intro-cupid.top-right {
+    top: 15%;
+    right: 15%;
+}
+
+.intro-cupid.bottom-left {
+    bottom: 20%;
+    left: 10%;
+    animation-delay: 1s;
+}
+
+.intro-heart-arrow {
+    position: absolute;
+    font-size: 45px;
+    animation: arrowPulse 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px rgba(255, 107, 107, 0.5));
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.intro-heart-arrow:hover {
+    transform: scale(1.2) rotate(45deg);
+}
+
+.intro-heart-arrow.pos1 {
+    top: 25%;
+    left: 20%;
+}
+
+.intro-heart-arrow.pos2 {
+    bottom: 30%;
+    right: 15%;
+    animation-delay: 0.5s;
+}
+
 .intro-heart {
     font-size: 120px;
     display: inline-block;
@@ -1337,6 +1403,16 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease;
     filter: drop-shadow(0 0 30px rgba(255, 107, 107, 0.8));
+    position: relative;
+}
+
+.intro-heart::after {
+    content: '💘';
+    position: absolute;
+    font-size: 35px;
+    top: -20px;
+    right: -30px;
+    animation: arrowPulse 1.5s ease-in-out infinite;
 }
 
 .intro-heart:hover {
@@ -1455,4 +1531,27 @@ body {
     font-size: 28px;
     color: #ff6b6b;
     animation: pulse 1s ease-in-out infinite;
+}
+
+.flying-arrow {
+    position: fixed;
+    font-size: 40px;
+    z-index: 10001;
+    animation: flyArrow 1.5s ease-in-out forwards;
+    pointer-events: none;
+}
+
+@keyframes flyArrow {
+    0% {
+        opacity: 1;
+        transform: translate(0, 0) rotate(45deg) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(200px, -150px) rotate(45deg) scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(400px, -300px) rotate(45deg) scale(0.5);
+    }
 }
