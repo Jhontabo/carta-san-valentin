@@ -261,57 +261,37 @@ class AnimationManager {
         this.triggerCelebrationVibration();
     }
 
-    createLoveLetter() {
+createLoveLetter() {
         const letter = document.createElement('div');
         letter.className = 'love-letter';
         letter.innerHTML = `
             <div class="letter-content">
                 <div class="letter-header">
-                    <h3 class="valentine-text">💙 Feliz Día del Amistad, Marbel 💙</h3>
+                    <h3 class="valentine-text">❤️ Para ti ❤️</h3>
                 </div>
                 <div class="letter-body">
                    
 
-
-
-
 <p class="letter-text">
 
-💙 <strong>Querida Marbel, mi flaca, mi niña, mi corazón</strong> 💙<br><br>
+❤️ <strong>Mi nena</strong> ❤️<br><br>
 
-💙 <strong>Feliz Día del Amor y la Amistad</strong> 💙<br><br>
+Te escribo esto para que el día de hoy te sientas la mujer más especial del mundo.<br><br>
 
-Hola…
-No sé muy bien cómo empezar. Es la primera vez que escribo algo así, pero solo quiero decir lo que siento, lo que nace sin pensar demasiado, lo que llevo guardado desde hace tiempo en el corazón.<br><br>
+Eres esa niña especial, de esas que sabes que aparecen una vez en la vida y no quieres dejar ir.<br><br>
 
-Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue casualidad o destino… pero cambió algo en mí. Y también recuerdo cuando te vi en persona, tan nerviosa, tan linda, y yo sin entender por qué… Ese momento quedó grabado en mi memoria como uno de esos recuerdos que uno guarda para siempre.<br><br>
+No sé si esto es lo mismo que una carta de verdad, pero es lo que tengo a mi disposición en este momento. Lo importante eres tú.<br><br>
 
-Después de ese día te fui tomando un cariño enorme. Tal vez nunca supe expresarlo bien, porque no soy bueno con las palabras… pero créeme, todo lo que sentí fue real. A veces uno se guarda lo que siente por miedo o por orgullo, y termina perdiendo cosas bonitas que valían la pena.<br><br>
+Eres una chica muy linda, con una sonrisa que ilumina todo a tu alrededor. Tienes una forma de ser que me hace sentir cosas que no sé explicar. Solo sé que pensar en ti me hace sentir bien.<br><br>
 
-Quizás jugamos un juego donde sabíamos que podíamos salir heridos. Hubo días en que me pregunté si de verdad me quisiste… y quiero creer que sí, aunque haya sido un poquito. Con eso me basta, porque lo que vivimos, por corto que haya sido, fue sincero para mí.<br><br>
+Gracias por existir, gracias por ser tú.<br><br>
 
-Esta carta no es para reclamar nada, porque no tengo ese derecho. Solo quiero desearte felicidad… de la buena, de la que te haga reír fuerte, dormir tranquila y sentirte amada. Que llegue alguien que te cuide, te valore, te abrace fuerte y te dé todo lo bonito que mereces, incluso lo que yo no supe o no pude darte.<br><br>
-
-Tal vez soy un romántico, tal vez un tonto… pero soy humano. Y no quiero quedarme callado con lo que siento, porque la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el alma.<br><br>
-
-Ahora ya no somos ni seremos… y aun así te escribo. No para volver atrás, sino para cerrar con amor, con gratitud y con respeto. Porque fuiste una parte muy bonita de mi vida. Fuiste mi personita especial, mi flaca… y ese apodo siempre será tuyo.<br><br>
-
-Eres una gran mujer: una gran hija, hermana, tía, amiga… y estoy seguro de que serás todo lo que sueñas. Gracias por lo que me diste, por lo que me enseñaste, y perdón por cualquier cosa que te haya hecho daño. De corazón, perdón.<br><br>
-
-Te deseo una vida llena de cosas bonitas. Yo estaré aquí, no de la misma forma porque ya no se puede… pero siempre con cariño, siempre deseándote lo mejor. Aquí tendrás a un amigo sincero, eso tenlo por seguro.<br><br>
-
-Feliz Día del Amor y la Amistad, mi niña hermosa.<br><br>
-
-Con cariño sincero,<br>
-Tu niño, tu nene… y desde hace un tiempo, tu amigo que te quiere mucho,<br>
-Jhon 💙<br><br>
-
-<strong>P.D.</strong> Escribí esta carta muchas veces porque quería que fuera especial para ti… porque tú fuiste especial para mí. 😊
+Mi nena, eres especial ❤️
 
 </p>
                 <div class="music-section">
-                    <p class="music-text">💙 Esta es la canción que me recuerda a ti 💙</p>
-                    <a href="https://www.youtube.com/watch?v=gDyjzFwrW5o" target="_blank" class="music-link">
+                    <p class="music-text">❤️ Espero te guste esta canción ❤️</p>
+                    <a href="https://www.youtube.com/watch?v=y-9VnzyQ_Yc" target="_blank" class="music-link">
                         <div class="music-button">
                             <span class="music-icon">🎵</span>
                             <span class="music-label">Escuchar tu canción</span>
@@ -321,7 +301,7 @@ Jhon 💙<br><br>
 
                 </div>
                 <div class="hearts-decoration">
-                    <span class="heart-icon">💙</span>
+                    <span class="heart-icon">❤️</span>
                     <span class="heart-icon">💕</span>
                     <span class="heart-icon">💗</span>
                     <span class="heart-icon">💖</span>

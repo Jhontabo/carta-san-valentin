@@ -98,7 +98,7 @@ class ButtonManager {
                 font-size: 24px;
                 font-weight: 700;
             ">
-                💙 Gracias por ser una gran amiga 💙
+                ❤️ Gracias por ser una gran amiga ❤️
             </div>
         `;
         
