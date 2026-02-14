@@ -146,6 +146,7 @@ class AnimationManager {
 
 
 
+
 <p class="letter-text">
 
 💙 <strong>Querida Marbel, mi flaca, mi niña, mi corazón</strong> 💙<br><br>
@@ -160,17 +161,17 @@ Luego de ese día, te tomé mucho cariño aunque, bueno, nunca he sido muy bueno
 
 Creo que jugamos un juego en el que íbamos a salir lastimados, ya sabes a qué me refiero. Hubo días en los que me preguntaba si de verdad me quisiste; quiero creer que sí, aunque sea un poquito. Con eso me basta.<br><br>
 
-En fin, esta carta no es para reclamos —ni que tuviera ese derecho, jeje—. Lo que sí quiero es decirte esto: deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces.<br><br>
+En fin, esta carta no es para reclamos —ni que tuviera ese derecho, jeje—. Lo que sí quiero es decirte esto: deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces, todo lo que no voy a poder hacer yo.<br><br>
 
-Tal vez soy un romántico, o tal vez un pendejo, no lo sé... Solo soy un hombre, un ser humano con sus errores que, al fin y al cabo, está viviendo. No me gusta guardarme lo que siento porque después uno se arrepiente; la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
+Tal vez soy un romántico, o tal vez un pendejo, no lo sé... Solo soy un hombre, un ser humano con sus errores que, al fin y al cabo, está viviendo. No me gusta guardarme lo que siento porque ya sabes que luego me arrepiento; la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
 
-Lo que uno quiere no siempre se puede. Ahora ya no somos ni seremos, y aun así te escribo esto. Espero que te guste, jaja.<br><br>
+Ahora ya no somos ni seremos, y aun así te escribo esto, esto me convierte en un pendejaso, pero me vale verg@ jaja, por lo general hago lo que me sale del corazón o de los que me cuelgan asi que no me importa si piensas que soy un arrastrado. Espero que te guste este intento de carta jaja.<br><br>
 
-Eres una gran mujer: una gran hija, una gran amiga, una excelente persona. Fuiste mi personita especial y, aunque fue por poco tiempo, para mí fue suficiente. No permitas que nadie te haga creer lo contrario.<br><br>
+Eres una gran mujer: una gran hija, una gran hermana, una gran tia,una gran amiga, espero que en un futuro una gran madre, una excelente persona sobre todo. Fuiste mi personita especial y, aunque fue por poco tiempo, para mí fue suficiente siempre seras mi flaca, ese apodo es solo tuyo.<br><br>
 
-Sé que eres una gran persona, me lo has demostrado, así que no pienses que te guardo algún tipo de rencor. Incluso, el que te debe una disculpa soy yo por cualquier cosa que haya hecho; así que perdón, hermosa.<br><br>
+Sé que eres una gran persona, me lo has demostrado, así que no pienses que te guardo algún tipo de rencor, espero tu tampoco lo hagas con este pobre hombre.te pido una disculpa  por cualquier cosa que haya hecho; así que perdón, hermosa.<br><br>
 
-Te deseo un resto de vida lleno de cosas buenas. Yo estaré aquí, aunque ya no de la misma manera porque eso ya no puede ser, pero siempre tendrás un amigo.<br><br>
+Te deseo un resto de vida lleno de cosas bonitas. Yo estaré aquí, aunque ya no de la misma manera porque eso ya no puede ser, pero siempre tendrás un amigo.<br><br>
 
 Feliz Día del Amor y la Amistad, mi niña hermosa.<br><br>
 
@@ -178,7 +179,7 @@ Con cariño sincero,<br>
 Tu niño, tu nene que te quiere mucho,<br>
 Jhon 💙<br><br>
 
-<strong>P.D.</strong> Escribí esta carta tres veces para que quedara bien, así que valórala mucho. Seguramente no volveré a escribir algo así nunca más. 😊
+<strong>P.D.</strong> Escribí esta carta como 20 veces para que quedara bien, así que valórala mucho. Seguramente no volveré a escribir algo así nunca más. 😊
 
 </p>
 
