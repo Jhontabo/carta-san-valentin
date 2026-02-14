@@ -148,38 +148,39 @@ class AnimationManager {
 
 <p class="letter-text">
 
-💙Querida Marbel, mi flaca… aunque ahora solo Marbel💙<br><br>
+💙 <strong>Querida Marbel, mi flaca, mi niña, mi corazón</strong> 💙<br><br>
 
-💙 Feliz Día de la Amistad 💙<br><br>
+💙 <strong>Feliz Día de la Amistad</strong> 💙<br><br>
 
-Hola… no sé muy bien cómo empezar esto. Es la primera vez que escribo algo así, así que solo voy a decir lo que siento, sin reclamos, sin reproches… solo desde lo que me nace.<br><br>
+Hola… No sé muy bien cómo empezar esto. Es la primera vez que escribo algo así, así que solo voy a decir lo que siento, simplemente lo que nace desde adentro.<br><br>
 
-Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue un error o si el destino simplemente quiso que pasara, pero desde ahí algo cambió. Y la primera vez que te vi en persona… estabas nerviosa, y yo no entendía por qué. Ese momento vive en mi memoria. Yo estaba pasando por un tiempo difícil, muy oscuro… y sin saberlo fuiste una pequeña luz. Hiciste mis días más llevaderos cuando más lo necesitaba.<br><br>
+Recuerdo la primera vez que recibí un mensaje tuyo. No sé si fue un error o si fue el destino; al final eso no importa, ¿o sí? También recuerdo la primera vez que te vi en persona… Estabas nerviosa y yo no entendía por qué. Ese momento vive en mi memoria. A veces el recuerdo es mejor que la realidad, pero qué bueno que fue así.<br><br>
 
-Sí, me dolió cuando elegiste a alguien más. No lo voy a negar. Pero también reconozco que yo tuve mis errores. No todo fue perfecto, y asumir eso también es parte de crecer. El tiempo pasa… y la vida sigue, aunque a veces uno quisiera que se detuviera un poco más.<br><br>
+Luego de ese día, te tomé mucho cariño aunque, bueno, nunca he sido muy bueno para expresarme. Por eso creo que a veces debo estar solo; uno mismo siempre se entiende mejor.<br><br>
 
-Hubo días en los que me preguntaba si de verdad me quisiste. Quiero creer que sí. Y si en algún momento fue real, con eso me basta. Porque lo que yo sentí sí fue real.<br><br>
+Creo que jugamos un juego en el que íbamos a salir lastimados, ya sabes a qué me refiero. Hubo días en los que me preguntaba si de verdad me quisiste; quiero creer que sí, aunque sea un poquito. Con eso me basta.<br><br>
 
-Hoy ya no siento rabia, ni resentimiento. Solo agradecimiento. Porque me diste una dosis de realidad que necesitaba para madurar, para entender muchas cosas. No eres una mala mujer. Solo tomaste las decisiones que creíste correctas. Todos nos equivocamos, todos aprendemos.<br><br>
+En fin, esta carta no es para reclamos —ni que tuviera ese derecho, jeje—. Lo que sí quiero es decirte esto: deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces.<br><br>
 
-Y aunque no sea conmigo, deseo que seas feliz. De verdad. Que alguien te cuide, te valore, te abrace fuerte y te dé todo lo que mereces. Creo que eso es amar: querer que el otro esté bien, incluso si no es a tu lado.<br><br>
+Tal vez soy un romántico, o tal vez un pendejo, no lo sé... Solo soy un hombre, un ser humano con sus errores que, al fin y al cabo, está viviendo. No me gusta guardarme lo que siento porque después uno se arrepiente; la vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
 
-Tal vez soy muy romántico, tal vez demasiado sensible… pero soy así. No me gusta guardarme lo que siento, porque después uno se arrepiente. La vida es tan frágil que mañana puede ser tarde para decir lo que hoy pesa en el corazón.<br><br>
+Lo que uno quiere no siempre se puede. Ahora ya no somos ni seremos, y aun así te escribo esto. Espero que te guste, jaja.<br><br>
 
-No somos nada ahora, y aun así te escribo esto. Pero no lo hago para volver atrás, sino para cerrar el ciclo con paz. Me quedo con lo bonito, con lo que fue, aunque haya sido corto. Para mí fue suficiente para marcarme.<br><br>
+Eres una gran mujer: una gran hija, una gran amiga, una excelente persona. Fuiste mi personita especial y, aunque fue por poco tiempo, para mí fue suficiente. No permitas que nadie te haga creer lo contrario.<br><br>
 
-Eres una gran mujer. Una gran hija, una gran amiga, una gran persona. No permitas que nadie te haga creer lo contrario.<br><br>
+Sé que eres una gran persona, me lo has demostrado, así que no pienses que te guardo algún tipo de rencor. Incluso, el que te debe una disculpa soy yo por cualquier cosa que haya hecho; así que perdón, hermosa.<br><br>
 
-Te deseo un resto de vida lleno de cosas buenas. Y yo estaré aquí, recordando con un poco de nostalgia… pero también con gratitud.<br><br>
+Te deseo un resto de vida lleno de cosas buenas. Yo estaré aquí, aunque ya no de la misma manera porque eso ya no puede ser, pero siempre tendrás un amigo.<br><br>
 
 Feliz Día del Amor y la Amistad, mi niña hermosa.<br><br>
 
 Con cariño sincero,<br>
-tu niño, tu nene que te quiere mucho,<br>
-Jhon 💙
+Tu niño, tu nene que te quiere mucho,<br>
+Jhon 💙<br><br>
+
+<strong>P.D.</strong> Escribí esta carta tres veces para que quedara bien, así que valórala mucho. Seguramente no volveré a escribir algo así nunca más. 😊
 
 </p>
-
 
                 <div class="music-section">
                     <p class="music-text">💙 Esta es la canción que me recuerda a ti 💙</p>
